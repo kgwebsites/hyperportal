@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-gap: 10px;
+      width: calc(100vh - 42px);
+      height: calc(100vh - 42px);
+      padding: 10px;
+      border: 1px solid #333;
+      margin: 10px;
+    }
+
+    .color {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      padding: 5px;
+    }
+
+    .offset {
+      background-color: #333;
+    }
+
+    .offset-light {
+      background-color: #ccc;
+    }
+
+    .box {
+      height: 25px;
+      width: 25px;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="grid">
+    <div class="color offset" style="color: #fff">
+      <div class="box" style="background-color:#fff;"></div> #fff
+    </div>
+    <div class="color" style="color: #1e1e1e">
+      <div class="box" style="background-color:#1e1e1e;"></div> #1e1e1e
+    </div>
+    <div class="color offset" style="color: #bba9fd">
+      <div class="box" style="background-color:#bba9fd;"></div> #bba9fd
+    </div>
+    <div class="color" style="color: #242029">
+      <div class="box" style="background-color:#242029;"></div> #242029
+    </div>
+    <div class="color offset-light" style="color: #eb64ba27">
+      <div class="box" style="background-color:#eb64ba27;"></div> #eb64ba27
+    </div>
+    <div class="color offset-light" style="color: #c040c433">
+      <div class="box" style="background-color:#c040c433;"></div> #c040c433
+    </div>
+    <div class="color" style="color: #74dfc4">
+      <div class="box" style="background-color:#74dfc4;"></div> #74dfc4
+    </div>
+    <div class="color" style="color: #48424e">
+      <div class="box" style="background-color:#48424e;"></div> #48424e
+    </div>
+    <div class="color" style="color: #f48771">
+      <div class="box" style="background-color:#f48771;"></div> #f48771
+    </div>
+    <div class="color" style="color: #4e415c">
+      <div class="box" style="background-color:#4e415c;"></div> #4e415c
+    </div>
+    <div class="color" style="color: #ff00dc">
+      <div class="box" style="background-color:#ff00dc;"></div> #ff00dc
+    </div>
+    <div class="color" style="color: #74dfc4cc">
+      <div class="box" style="background-color:#74dfc4cc;"></div> #74dfc4cc
+    </div>
+    <div class="color offset" style="color: #74dfc433">
+      <div class="box" style="background-color:#74dfc433;"></div> #74dfc433
+    </div>
+    <div class="color" style="color: #3e3549">
+      <div class="box" style="background-color:#3e3549;"></div> #3e3549
+    </div>
+    <div class="color" style="color: #00f989">
+      <div class="box" style="background-color:#00f989;"></div> #00f989
+    </div>
+    <div class="color" style="color: #00b4ff">
+      <div class="box" style="background-color:#00b4ff;"></div> #00b4ff
+    </div>
+  </div>
+</body>
+
+</html>
