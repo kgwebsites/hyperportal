@@ -1,5 +1,5 @@
 {
-  "name": "LaserWave",
+  "name": "HyperPortal",
   "colors": {
     "editor.foreground": "#fff",
     "editor.background": "#1e1e1e",
@@ -10,11 +10,11 @@
     "activityBar.background": "#1e1e1e",
     "activityBar.foreground": "#fff",
     "activityBarBadge.background": "#bba9fd",
-    "statusBar.background": "#d6c3d4",
+    "statusBar.background": "#ff00dc",
     "statusBar.noFolderBackground": "#ff00dc",
     "statusBar.foreground": "#1e1e1e",
     "editorGroupHeader.tabsBackground": "#242029",
-    "tab.activeBorder": "#bba9fd",
+    "tab.activeBorder": "#ff00dc",
     "tab.inactiveBackground": "#242029",
     "editor.wordHighlightBackground": "#fff23931",
     "editor.selectionBackground": "#fff23931",
