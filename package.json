@@ -2,7 +2,7 @@
   "name": "hyperportal",
   "displayName": "HyperPortal",
   "description": "A vibrant dark theme",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "kgwebsites",
   "repository": {
     "type": "git",
@@ -27,5 +27,10 @@
         "path": "./themes/HyperPortal-color-theme.json"
       }
     ]
+  },
+  "__metadata": {
+    "id": "7757a18d-e7d8-474e-b6e9-f35a9c3b2f9c",
+    "publisherDisplayName": "kgwebsites",
+    "publisherId": "7d6ed83c-7474-4ca4-9df2-aafbecb52b83"
   }
 }
