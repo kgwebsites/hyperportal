@@ -1,4 +1,5 @@
 {
+  // some
   "name": "HyperPortal",
   "colors": {
     "editor.foreground": "#fff",
@@ -245,7 +246,7 @@
       "name": "comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#48424e"
+        "foreground": "#CCCCCC"
       }
     },
     {
