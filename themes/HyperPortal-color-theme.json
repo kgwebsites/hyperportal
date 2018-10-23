@@ -22,7 +22,7 @@
     "editor.findMatchBackground": "#c040c433",
     "editor.findMatchHighlightBackground": "#c040c433",
     "gitDecoration.modifiedResourceForeground": "#74dfc4",
-    "gitDecoration.untrackedResourceForeground": "#48424e",
+    "gitDecoration.untrackedResourceForeground": "#696969",
     "gitDecoration.conflictingResourceForeground": "#bba9fd",
     "gitDecoration.deletedResourceForeground": "#f48771",
     "gitDecoration.ignoredResourceForeground": "#4e415c",
